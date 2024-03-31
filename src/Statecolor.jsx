@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import sushmita from "./assets/sushmita.png";
-import bardan from "./assets/bardan.png"; // Import Bardan's image
+import bardan from "./assets/bardan.png"; 
+import aman from "./assets/aman.png"; 
 
 function Statecolor() {
   const [color, setColor] = useState(null);
@@ -14,7 +15,13 @@ function Statecolor() {
     } else if (inputValue === "bardan") {
       setColor("white");
       setImageName(bardan);
-    } else {
+    } 
+    else if(inputValue === 'lado'){
+      setColor("white");
+      setImageName(aman);
+    }
+    
+   else {
       setColor(null);
       setImageName(null);
     }
