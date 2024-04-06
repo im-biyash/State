@@ -9,7 +9,7 @@ function Statecolor() {
 
   const handleChange = (e) => {
     const inputValue = e.target.value.toLowerCase(); // Convert input to lowercase for case-insensitive comparison
-    if (inputValue === "sushmita") {
+    if (inputValue === "sushmit") {
       setColor("white");
       setImageName(sushmita);
     } else if (inputValue === "aadit") {
