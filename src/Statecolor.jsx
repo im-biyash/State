@@ -3,6 +3,7 @@ import sushmita from "./assets/sushmita.png";
 import bardan from "./assets/bardan.png"; 
 import aman from "./assets/aman.png"; 
 import sushma from "./assets/sushma.png";
+import biyash from "./assets/biyash.jpg";
 function Statecolor() {
   const [color, setColor] = useState(null);
   const [imageName, setImageName] = useState(null);
@@ -20,10 +21,16 @@ function Statecolor() {
       setColor("white");
       setImageName(aman);
     }
-    else if(inputValue === 'sushma') {
+    else if(inputValue === 'sushma' || inputValue === 'Sushma ' || inputValue === 'susma') {
       setColor("white");
       setImageName(sushma)
     }
+    else if(inputValue === 'biyash' ) {
+      setColor("white");
+      setImageName(biyash)
+    }
+    
+    
    else {
       setColor(null);
       setImageName(null);
@@ -44,7 +51,7 @@ function Statecolor() {
       <div className="absolute bottom-10">
         <input
           type="text"
-          className="py-2 px-4 border border-gray-300 rounded-md mb-4 md:mb-0"
+          className="py-2 relative top-[30px]  px-4 border border-gray-300 rounded-md mb-4 md:mb-0"
           onChange={handleChange}
           placeholder="Enter first name"
         />
