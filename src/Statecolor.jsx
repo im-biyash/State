@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import sushmita from "./assets/sushmita.png";
 import bardan from "./assets/bardan.png"; 
 import aman from "./assets/aman.png"; 
-
+import sushma from "./assets/sushma.png";
 function Statecolor() {
   const [color, setColor] = useState(null);
   const [imageName, setImageName] = useState(null);
@@ -20,7 +20,10 @@ function Statecolor() {
       setColor("white");
       setImageName(aman);
     }
-    
+    else if(inputValue === 'sushma') {
+      setColor("white");
+      setImageName(sushma)
+    }
    else {
       setColor(null);
       setImageName(null);
