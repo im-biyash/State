@@ -25,7 +25,7 @@ function Statecolor() {
       setColor("white");
       setImageName(sushma)
     }
-    else if(inputValue === 'biyash' ) {
+    else if(inputValue === 'biyas' ) {
       setColor("black");
       setImageName(biyash)
     }
@@ -53,7 +53,7 @@ function Statecolor() {
           type="text"
           className="py-2 relative top-[30px]  px-4 border border-gray-300 rounded-md mb-4 md:mb-0"
           onChange={handleChange}
-          placeholder="Enter first name"
+          placeholder="Enter your first name"
         />
       </div>
     </div>
