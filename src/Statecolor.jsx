@@ -41,7 +41,7 @@ function Statecolor() {
     <div className="bg-black h-screen flex flex-col justify-center items-center">
         <h1 className="text-white text-3xl mb-3">Enter your first name</h1>
       <div
-        className="card bg-blue-200 h-[300px] w-[250px]"
+        className="card bg-blue-400 h-[300px] w-[250px]"
         style={{ backgroundColor: color }}
       >
         {imageName && ( // Render the image if imageName is truthy
