@@ -27,7 +27,8 @@ function Statecolor() {
     }
     else if(inputValue === 'biyas' ) {
       setColor("black");
-      setImageName(biyash)
+      setImageName(biyash);
+      // it change the state to biyash photo
     }
     
     
