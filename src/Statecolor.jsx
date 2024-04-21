@@ -21,7 +21,7 @@ function Statecolor() {
       setColor("white");
       setImageName(aman);
     }
-    else if(inputValue === 'sushma' || inputValue === 'Sushma ' || inputValue === 'susma') {
+    else if(inputValue === 'sushmaa' || inputValue === 'Sushma ' || inputValue === 'susma') {
       setColor("white");
       setImageName(sushma)
     }
