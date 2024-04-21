@@ -25,7 +25,7 @@ function Statecolor() {
       setColor("white");
       setImageName(sushma)
     }
-    else if(inputValue === 'biyas' ) {
+    else if(inputValue === 'biyash' ) {
       setColor("black");
       setImageName(biyash);
       // it change the state to biyash photo
