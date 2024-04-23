@@ -13,7 +13,7 @@ function Statecolor() {
     if (inputValue === "sushmitaa") {
       setColor("white");
       setImageName(sushmita);
-    } else if (inputValue === "aadit") {
+    } else if (inputValue === "bardan") {
       setColor("white");
       setImageName(bardan);
     } 
