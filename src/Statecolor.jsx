@@ -24,7 +24,7 @@ function Statecolor() {
     } else if (inputValue === 'sushmaa' || inputValue === 'sushma' || inputValue === 'susma') {
       setColor("white");
       setImageName(sushma);
-    } else if (inputValue === 'biyash') {
+    } else if (inputValue === 'biyash shrestha') {
       setColor("black");
       setImageName(biyash);
     } else if (inputValue === 'binita') { // Add condition for Binita
