@@ -5,16 +5,16 @@ import aman from "./assets/aman.png";
 import sushma from "./assets/sushma.png";
 import biyash from "./assets/biyash.jpg";
 import binita from "./assets/binita.png"; // Import Binita's image
-
+import sanju from "./assets/sanju.png";
 function Statecolor() {
   const [color, setColor] = useState(null);
   const [imageName, setImageName] = useState(null);
 
   const handleChange = (e) => {
     const inputValue = e.target.value.toLowerCase(); // Convert input to lowercase for case-insensitive comparison
-    if (inputValue === "sushmitaa") {
+    if (inputValue === "sanju" || inputValue === "Sanju") {
       setColor("white");
-      setImageName(sushmita);
+      setImageName(sanju);
     } else if (inputValue === "bardan") {
       setColor("white");
       setImageName(bardan);
@@ -27,7 +27,7 @@ function Statecolor() {
     } else if (inputValue === 'biyash shrestha') {
       setColor("black");
       setImageName(biyash);
-    } else if (inputValue === 'binita') { // Add condition for Binita
+    } else if (inputValue === 'binitaa') { // Add condition for Binita
       setColor("pink");
       setImageName(binita);
     } else {
@@ -38,7 +38,7 @@ function Statecolor() {
 
   return (
     <div className="bg-black h-screen flex flex-col justify-center items-center">
-      <h1 className="text-white text-2xl mb-2">Enter your first name</h1>
+      <h1 className="text-white text-2xl mb-2">Enter your first name:</h1>
       <div
         className="card bg-blue-400 h-[300px] w-[250px]"
         style={{ backgroundColor: color }}
